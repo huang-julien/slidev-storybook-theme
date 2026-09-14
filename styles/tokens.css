@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root {
+  --sb-blue-50: #F3F9FE;
+  --sb-blue-100: #E3F2FF;
+  --sb-blue-200: #AFDAFF;
+  --sb-blue-300: #8FCBFF;
+  --sb-blue-400: #52AFFF;
+  --sb-blue-500: #029CFD;
+  --sb-blue-600: #1778E9;
+  --sb-blue-700: #0D64CA;
+  --sb-blue-800: #1E4FAF;
+  --sb-blue-900: #1E3A8A;
+  --sb-blue: var(--sb-blue-500);
+  --sb-pink: #FF4785;
+  --sb-teal: #37D5D3;
+  --sb-gold: #FEBD32;
+  --sb-green: #A8E38C;
+  --sb-navy: #0d1026; /* storybook.js.org home hero background */
+  --sb-code-bg: #0F172A; /* code block background (One Dark Pro variant) */
+  --sb-gradient-from: rgb(71 145 255);
+  --sb-gradient-to: rgb(255 71 133);
+  --sb-bg: #ffffff;
+  --sb-text: #1e293b;
+  --sb-text-muted: #64748b;
+  --sb-text-inverse: #ffffff;
+  --sb-border: #e4e4e7;
+  --sb-font-sans: 'Nunito Sans', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --sb-radius: 4px;
+}
+
+html.dark {
+  --sb-bg: #020617;
+  --sb-text: #f1f5f9;
+  --sb-text-muted: #94a3b8;
+  --sb-border: #334155;
+}
+
+@property --sb-gradient-angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+@keyframes sb-gradient-rotate {
+  from {
+    --sb-gradient-angle: 0deg;
+  }
+  to {
+    --sb-gradient-angle: 360deg;
+  }
+}

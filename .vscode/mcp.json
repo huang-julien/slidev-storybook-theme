@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "storybook-mcp": {
+      "type": "http",
+      "url": "http://localhost:6006/mcp"
+    },
+    "slidev-mcp": {
+      "type": "http",
+      "url": "http://localhost:3030/__mcp"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.slidev-layout pre.slidev-code,
+.slidev-layout .slidev-code-wrapper pre {
+  background: var(--sb-code-bg) !important;
+  border-radius: 8px;
+  padding: 1em 1.2em;
+  line-height: 1.6;
+  box-shadow: 0 4px 14px rgb(2 6 23 / 0.25);
+  border: 1px solid rgb(255 255 255 / 0.08);
+}
+
+.slidev-layout pre {
+  background: var(--sb-code-bg);
+}
